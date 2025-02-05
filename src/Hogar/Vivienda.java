@@ -23,6 +23,7 @@ public class Vivienda {
         this.precio = precio;
     }
     
+    /* Actualiza el precio con 0.05  */
     public void actualizarPrecio()
     {
         precio = precio - precio * 0.05;

@@ -16,7 +16,8 @@ public class Hogar {
      */
     public static void main(String[] args) {
         Vivienda v = new Vivienda(120000);
-        
+
+        /* Se muestra por pantalla */
         System.out.println("Precio: " + v.precio);
         System.out.println("Número de habitaciones: "+ v.numHabitaciones);
         System.out.println("Superficie en m2: " + v.superficie);
