@@ -23,6 +23,7 @@ public class Vivienda {
         this.precio = precio;
     }
     
+    /* Segundo commit: Actualiza el precio con 0.05  */
     public void actualizarPrecio()
     {
         precio = precio - precio * 0.10; // Segundo cambio de Manuel
